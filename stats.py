@@ -10,8 +10,8 @@ def get_char_count_dict(text):
         character_counts[char_lower] += 1
     return character_counts
 
-def sort_on(dict):
-    return dict["num"]
+def sort_on(char_num_dict):
+    return char_num_dict["num"]
 
 def get_sorted_char_count(char_dict):
     sorted = []
